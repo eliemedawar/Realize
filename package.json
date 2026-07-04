@@ -1,0 +1,17 @@
+{
+  "name": "realize-therapy-center",
+  "version": "1.0.0",
+  "description": "Realize Therapy Center website with appointment booking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "sharp": "^0.35.3"
+  }
+}
