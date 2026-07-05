@@ -337,6 +337,16 @@ button { font-family: inherit; }
   color: #5c7591;
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+.hero-mobile-cta { display: none; }
+@media (max-width: 979px) {
+  .hero-inner { flex-direction: column; align-items: stretch; }
+  .hero-copy, .hero-visual { flex: 0 0 auto; width: 100%; min-width: 0; }
+  .hero-copy .hero-actions,
+  .hero-copy .hero-trust { display: none; }
+  .hero-mobile-cta { display: block; }
+  .hero-mobile-cta .hero-actions { margin-top: 0; justify-content: center; }
+  .hero-mobile-cta .hero-trust { margin-top: 22px; justify-content: center; }
+}
 .hero-trust {
   display: flex; flex-wrap: wrap; align-items: center;
   gap: 10px 14px;

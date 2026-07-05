@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+bookings.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
